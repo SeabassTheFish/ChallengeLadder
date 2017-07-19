@@ -4,17 +4,24 @@ h1 {
 p {
 	color: red;
 }
+.top-menu {
+	background-color: #009b00;
+	overflow: hidden;
+}
 a.top-menu {
 	color: #ffffff;
 	text-decoration: none;
-	font-size: 250%;
-	border: 5px solid pink;
-	padding: 5px 5px 5px 5px;
-}
-a.top-menu:link {
-	background-color: #00C800;
-	color: #ffffff;
+	font-size: 225%;
+	padding: 20px 10px 20px 10px;
+	background-color: #009b00; <!-- Green -->
+	display: block;
+	font-family: "Arial", Helvetica, sans-serif;
+	cursor: default;
+	text-align: center;
 }
 a.top-menu:hover {
 	background-color: #006400; <!-- Darker Green -->
+}
+a.top-menu:active {
+	background-color: #000000; <!-- Black -->
 }
